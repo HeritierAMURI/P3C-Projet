@@ -1,0 +1,106 @@
+
+body
+{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start; 
+    
+}
+.dash{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 3% 2%;
+    width: 20%;
+    height: 100vh;
+    background-color:#031427eb;
+    color: white;
+
+}
+.dash h1{
+    color: rgb(2, 6, 252);
+}
+nav{
+    margin-top: 20%;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+.contenu{
+    margin-left: 25%;
+ }
+.contenu h1{
+    text-align: center;
+}
+/* Ajout */
+.ok{
+    background-color: white;
+    color: #031427eb;
+    padding: 2%;
+}
+/* Style de */
+.titre { 
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-left: 12px solid #031427eb;
+    border-right: 12px solid #031427eb;
+    width: 86%;
+    border-radius: 8px; 
+      
+}
+.contenu .titre
+{
+    text-align: center;
+    margin-left: 2.5%;
+    margin-bottom: 4%;
+}
+/* Contenu de Révendication */
+.revendication
+{
+    width: 90%;
+    margin-left: 2.5%;
+    background-color: white;
+    margin-bottom: 2%;
+    
+}
+.en-tete-revendication
+{
+    background-color: #031427eb;
+    color: white;
+    padding: 2%;
+    font-size: 1.5em;
+}
+.contenu-revendication
+{
+    padding: 2.5%;
+}
+.contenu-revendication label
+{
+    font-size: 2.5em;
+    color: #031427eb;
+    margin-left: 35%;
+    
+}
+.revendication:hover
+{
+    box-shadow: 0px 0px 15px rgba(80, 138, 207, 0.954);
+}
+.contenu-revendication p
+{
+    line-height: 1.3em;
+    font-size: 1.5em;
+}
+.en-tete-revendication label
+{
+    line-height: 1.3em;
+}
+.en-tete-revendication-label
+{
+    display: flex;
+    flex-direction: column;
+}

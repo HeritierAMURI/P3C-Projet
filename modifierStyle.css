@@ -1,0 +1,62 @@
+#id {
+    visibility: hidden;
+}
+body{
+    background-color: rgb(225, 225, 225);
+    font-family: sans-serif;
+}
+.container{
+    margin: 2% 25%;
+    padding: 3% 2%;
+    width: 50%;
+    background-color: white;
+    border-radius: 1.5em;
+}
+.container:hover{
+    box-shadow: 0px 0px 10px rgba(3, 114, 250, 0.954);
+}
+h3{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 1.5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.form-group{
+    width: 96%;
+    padding: 0%;
+}
+label,input{
+    width: 100%;
+    margin: 1%;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }  
+button{
+    width: 25%;
+    margin-left: 70%;
+    margin-top: -8%;
+    padding: 1% 2%;
+    background-color:#031427eb;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+      
+      
+}
+button:hover{
+    background-color: rgba(3, 114, 250, 0.954);
+}
+
