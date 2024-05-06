@@ -1,0 +1,151 @@
+a {
+    text-decoration: none;
+    color: rgb(61, 57, 57);
+ }
+
+a:hover {
+background-color: rgb(189, 127, 127);
+padding: 12px;
+color: white;
+}
+
+body {
+background-color: rgb(245, 245, 245);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex {
+    display: flex;
+}
+.grid {
+display: grid;
+}
+
+img {
+    width: 100%;
+}
+
+.en_tete {
+    position: fixed; 
+    margin-bottom: 500px;
+}
+header{
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+
+}
+
+nav {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.principal-title{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h1 {
+font-size: x-large;
+}
+
+.logo-pic {
+    width: 20%;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+}
+
+.h2 {
+    justify-content: center;
+    margin-left: 10px;
+}
+nav {
+    gap: 20px;
+}
+/*Formulaire Révendicatiin */
+.Revendication {
+padding-top: 150px;
+}
+
+.FormRevendication {
+justify-content: center;
+
+}
+
+.rev-title {
+
+justify-content: center;
+text-align: center;
+
+}
+
+.info input{
+    width: 96%;
+    padding: 9px;
+
+}
+
+.info select  {
+width: 100%;
+padding: 9px;
+}
+
+textarea {
+    width: 100%;
+}
+.info input , .info select, textarea {
+ margin-top: 10px;
+}
+
+.action input{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(189, 127, 127);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+.title {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-left: 12px solid rgb(189, 127, 127);
+    border-right: 12px solid rgb(189, 127, 127);
+    width: 33.2%;
+    border-radius: 8px;
+}
+form:hover
+{
+    box-shadow: 0px 0px 10px rgba(80, 138, 207, 0.954);
+}
+input:hover, select:hover, textarea:hover {
+    border-color: #584f88cc;
+    box-shadow: 0px 0px 10px rgba(27, 7, 17, 0.753);
+  }
+input[type="submit"]:hover{
+    background-color: rgb(107, 151, 192);
+}

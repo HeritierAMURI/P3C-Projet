@@ -1,0 +1,174 @@
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+a:hover {
+    background-color: rgb(189, 127, 127);
+    padding: 12px;
+    color: rgb(23, 26, 180);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex {
+    display: flex;
+}
+
+img {
+    width: 99%;
+    height: 100%;
+}
+
+.en_tete {
+    position: fixed; 
+    margin-bottom: 500px;
+}
+header{
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+
+}
+
+nav {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.principal-title{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h1 {
+font-size: x-large;
+}
+
+.logo-pic {
+    width: 20%;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+}
+
+.h2 {
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/* nav  */
+
+nav {
+
+gap: 20px;
+}
+/* Description du site */
+
+.description_site {
+font-family: sans-serif;
+padding-top: 150px;
+}
+
+.cover-text {
+    text-align: justify;
+    width: 600px;
+   
+    
+}
+.cover-section {
+    gap: 100px;
+}
+.cover-section p {
+    margin-top: 10px;
+    
+}
+
+.cover-image {
+    width: 500px;
+    height: 500px;
+}
+
+.cover-image {
+    margin-top: -25px;
+}
+/* Ces que je viens d'qtoujer*/
+.article
+{
+    color: rgba(116, 129, 240, 0.979);
+}
+.section1 {
+    padding-top: 20px;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
+    }
+
+.section1
+{
+    display: flex;
+}
+.texte-section1
+{
+    padding: 30px;
+    width: 90%;
+}
+.description_section1
+{
+    font-family: sans-serif;
+    margin-top: 40px;
+    /* gap: 100px; */
+}
+.section1 .img_sectin1 {
+    width: 90%;
+    height: 470px;
+    
+}
+/* section 2 */
+.section2
+{
+    display: flex;
+}
+.img_section2 {
+    width: 10px;
+    height: 10px;
+    
+}
+/* section 3 */
+.section3 {
+    padding-top: 1px;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 1px;
+    }
+
+.section3
+{
+    display: flex;
+}
+.texte-section3
+{
+    padding: 30px;
+    width: 90%;
+}
+.description_section3
+{
+    font-family: sans-serif;
+    margin-top: 20px;
+    /* gap: 100px; */
+}
+.img_section3 {
+    width: 100%;
+    height: 390px;
+}

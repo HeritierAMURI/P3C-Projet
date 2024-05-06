@@ -1,0 +1,139 @@
+*{
+    outline: none;
+    text-decoration: none;
+  }
+body
+{
+    background-color: rgb(245, 245, 245);
+}
+a {
+    text-decoration: none;
+    color: rgb(61, 57, 57);
+ }
+
+a:hover {
+background-color: rgb(189, 127, 127);
+padding: 12px;
+color: white;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.flex {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.en_tete {
+    position: fixed; 
+    margin-bottom: 500px;
+}
+header{
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+
+}
+
+nav {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.principal-title{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h1 {
+font-size: x-large;
+}
+
+.logo-pic {
+    width: 20%;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+}
+
+.h2 {
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/* nav  */
+
+nav {
+
+gap: 20px;
+}
+
+#titre {
+    padding-top: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+.contenu{
+    font-family: Arial, sans-serif;
+    color: #1d1a1a;align-items: flex-start;
+    transition: background-color 0.5s, color 0.5s;
+}
+.tableau
+{
+    padding-top: 1.5%;
+    background-color: rgb(255, 255, 255);
+}
+table
+{
+    width: 70%;
+    margin: 1.5%;
+    border-collapse: collapse;
+    margin-left: 15%;
+}
+th, td
+{
+    padding: 6px;
+    text-align: center;
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+th
+{
+    color: #f4f0f0;
+    background: rgb(189, 127, 127);    
+}
+tr:hover {
+    background-color: rgb(225, 225, 225);
+   }
+.td1{
+    text-align: left;
+    width: 30%;
+}
+.titre {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-left: 12px solid rgb(189, 127, 127);
+    border-right: 12px solid rgb(189, 127, 127);
+    width: 66.5%;
+    border-radius: 8px;
+    text-align: center;
+}
+table:hover
+{
+    box-shadow: 0px 0px 10px rgba(80, 138, 207, 0.954);
+}
